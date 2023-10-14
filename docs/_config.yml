@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Foundings
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A collection of thoughts, findings, and what not related to chaos magick, witchcraft 
+  A collection of thoughts, findings, and what not related to chaos magick, witchcraft, 
   and the left hand path.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "hildegardevongamin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -32,6 +32,9 @@ url: "hildegardevongamin.github.io" # the base hostname & protocol for your site
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+  
+  git add .
+git commit -m 'Initial GitHub pages site with Jekyll'
 
 # Exclude from processing.
 # The following items will not be processed, by default.
