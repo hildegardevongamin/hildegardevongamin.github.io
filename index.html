@@ -1,7 +1,17 @@
-<!DOCTYPE html>
+---
+# front matter tells Jekyll to process Liquid
+---
+
+---
+title: Home
+---
+<!doctype html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1>{{ "Hello World!" | downcase }}</h1>
+  </body>
 </html>
